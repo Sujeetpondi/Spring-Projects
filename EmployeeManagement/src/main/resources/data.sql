@@ -1,0 +1,10 @@
+insert into employee (eid,salary,name,address,department,email,mobile) values (1,11000,'Rajesh','Lucknow','Sales','rajesh@emp.com','+91-23679801');
+insert into employee (eid,salary,name,address,department,email,mobile) values (2,12000,'Pankaj','Merath','Account','pankajacc@emp.com','+91-987669801');
+insert into employee (eid,salary,name,address,department,email,mobile) values (3,31000,'Mohan','patna','Java','mohanpatna@emp.com','+91-23678962');
+insert into employee (eid,salary,name,address,department,email,mobile) values (4,51000,'Shyam','Chennai','Tech','Shyam@emp.com','+91-23671234');
+insert into employee (eid,salary,name,address,department,email,mobile) values (5,98000,'Radha','Delhi','Support','radhaSupport@emp.com','+91-233459801');
+insert into employee (eid,salary,name,address,department,email,mobile) values (6,65000,'Sita','Kolkata','Platform','Sitawb@emp.com','+91-2367984432');
+insert into employee (eid,salary,name,address,department,email,mobile) values (7,91000,'Ajay','Varanasi','Networking','Ajaymaha@emp.com','+91-23690751');
+insert into employee (eid,salary,name,address,department,email,mobile) values (8,41000,'Suresh','Raipur','Analyst','Suresh@emp.com','+91-236789221');
+insert into employee (eid,salary,name,address,department,email,mobile) values (9,17000,'Nitin','Mohali','Human Resource','Nitinmoh@emp.com','+91-278779801');
+insert into employee (eid,salary,name,address,department,email,mobile) values (10,16000,'Prakash','Kochi','Finance','Prakashkerls@emp.com','+91-238979801');
