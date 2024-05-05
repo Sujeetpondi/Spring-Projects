@@ -1,0 +1,13 @@
+package com.myapp.question.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.myapp.question.dao.QuestionRepository;
+
+public class QuestionService {
+	
+	@Autowired
+	QuestionRepository repo;
+	
+
+}

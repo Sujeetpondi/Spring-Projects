@@ -1,0 +1,8 @@
+package com.myapp.quiz.model;
+
+public class QuizDto {
+
+	String categoryName;
+	Integer noOfQns;
+	String title;
+}

@@ -1,0 +1,22 @@
+package com.myapp.quiz.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+
+import com.myapp.quiz.dao.QuizRepository;
+
+@Service
+public class QuizService {
+	
+	@Autowired
+	QuizRepository repo;
+
+	public ResponseEntity<String> createQuiz(String category, int numQ, String title) {
+		
+	//need to modify
+		return new ResponseEntity<String>(repo.save(null),HttpStatus.CREATED);
+	}
+
+}

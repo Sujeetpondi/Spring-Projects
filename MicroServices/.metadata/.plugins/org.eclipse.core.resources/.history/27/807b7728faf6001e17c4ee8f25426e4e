@@ -1,0 +1,19 @@
+package com.myapp.quiz.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.myapp.quiz.dao.QuizRepository;
+
+@Service
+public class QuizService {
+	
+	@Autowired
+	QuizRepository repo;
+
+	public void createQuiz(String category, int numQ, String title) {
+		
+		
+	}
+
+}

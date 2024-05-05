@@ -1,0 +1,8 @@
+package com.myapp.question.model;
+
+public class Response {
+	
+	int id,
+	String response;
+
+}

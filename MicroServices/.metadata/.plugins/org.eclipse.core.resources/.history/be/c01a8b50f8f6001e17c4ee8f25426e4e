@@ -1,0 +1,10 @@
+package com.myapp.quiz.service;
+
+import com.myapp.quiz.dao.QuizRepository;
+
+public class QuizService {
+	
+	@Autowired
+	QuizRepository repo;
+
+}

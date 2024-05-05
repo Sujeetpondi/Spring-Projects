@@ -1,0 +1,15 @@
+package com.myapp.question.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+public class Question {
+	
+	@Id
+	int questionId;
+	String questionTitle,category,option1,ioption2,option3,option4;
+	String rightAnswer;
+	
+
+}

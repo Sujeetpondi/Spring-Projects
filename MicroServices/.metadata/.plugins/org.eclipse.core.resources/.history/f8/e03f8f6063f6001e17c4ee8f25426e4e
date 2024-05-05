@@ -1,0 +1,32 @@
+package com.myapp.question.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+
+import com.myapp.question.dao.QuestionRepository;
+import com.myapp.question.model.Question;
+
+public class QuestionService {
+	
+	@Autowired
+	QuestionRepository repo;
+
+	public ResponseEntity<List<Question>> getAllQuestion() {
+		
+		return new ResponseEntity<List<Question>>( repo.findAll(),HttpStatus.OK);
+	}
+
+	public ResponseEntity<List<Question>> getQuestionsByCategory(String category) {
+		
+		return new ResponseEntity<List<Question>>(repo.finAllByCategory(category),HttpStatus.OK);
+	}
+
+	public ResponseEntity<Question> addQuestion(Question question) {
+		return new ResponseEntity<Question>(repo.save(question),HttpStatus.ACCEPTED);
+	}
+	
+
+}

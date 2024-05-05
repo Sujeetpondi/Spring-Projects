@@ -1,0 +1,8 @@
+package com.myapp.question.model;
+
+public class QuestionWrapper {
+
+	int questionId;
+	String questionTitle,category,option1,ioption2,option3,option4;
+	
+}

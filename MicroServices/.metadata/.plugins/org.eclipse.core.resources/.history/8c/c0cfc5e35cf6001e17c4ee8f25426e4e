@@ -1,0 +1,12 @@
+package com.myapp.question.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.myapp.question.service.QuestionService;
+
+public class QuestionController {
+	
+	@Autowired
+	QuestionService service;
+
+}

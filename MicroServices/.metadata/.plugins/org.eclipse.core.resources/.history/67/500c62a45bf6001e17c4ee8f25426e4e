@@ -1,0 +1,5 @@
+package com.myapp.question.dao;
+
+public interface QuestionRepository {
+
+}

@@ -1,0 +1,20 @@
+package com.myapp.question.model;
+
+public class QuestionWrapper {
+
+	int questionId;
+	String questionTitle,category,option1,ioption2,option3,option4;
+	public QuestionWrapper(int questionId, String questionTitle, String category, String option1, String ioption2,
+			String option3, String option4) {
+		super();
+		this.questionId = questionId;
+		this.questionTitle = questionTitle;
+		this.category = category;
+		this.option1 = option1;
+		this.ioption2 = ioption2;
+		this.option3 = option3;
+		this.option4 = option4;
+	}
+	
+	
+}

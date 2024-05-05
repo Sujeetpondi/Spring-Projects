@@ -1,0 +1,6 @@
+package com.myapp.question.model;
+
+@Entity
+public class Question {
+
+}

@@ -1,0 +1,10 @@
+package com.myapp.question.model;
+
+import jakarta.persistence.Id;
+
+public class QuestionWrapper {
+
+	int questionId;
+	String question,category,option1,ioption2,option3,option4;
+	
+}

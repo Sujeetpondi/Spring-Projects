@@ -1,0 +1,12 @@
+package com.myapp.quiz.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.myapp.quiz.dao.QuizRepository;
+
+public class QuizService {
+	
+	@Autowired
+	QuizRepository repo;
+
+}
